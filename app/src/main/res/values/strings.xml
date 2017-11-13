@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyPlace</string>
+    <string name="api_key">AIzaSyBHwOTj7JwRT0u4zhXeyGCe9lTALYKI2oE</string>
+
+    <string name="text_no_data"> No data available</string>
+    <string name="text_retrieving_data">Retrieving data &#8230;</string>
+    <string name="text_show_all_place_on_map">Show all place on Map</string>
+    <string name="warning_do_you_want_to_delete">Do you want do delete</string>
+    <string name="text_warning">Warning</string>
+    <string name="text_positive">Yes</string>
+    <string name="text_negative">No</string>
+    <string name="text_saving">Saving</string>
+</resources>

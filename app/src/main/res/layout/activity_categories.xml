@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutCategoriesAct"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context="com.nvn.myplace.activity.CategoriesActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutCategoriesAct_Restaurent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/restaurant_background"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:id="@+id/imgCategoriesAct_Restaurant"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/restaurant" />
+
+        <TextView
+            android:id="@+id/txtCategoriesAct_Restaurent"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imgCategoriesAct_Restaurant"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutCategoriesAct_Cinema"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/cinema_background"
+        android:paddingLeft="12dp">
+
+        <ImageView
+            android:id="@+id/imgCategoriesAct_Cinema"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/cinema"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/txtCategoriesAct_Cinema"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCategoriesAct_Cinema"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutCategoriesAct_Fashion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/fashion_background"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:id="@+id/imgCategoriesAct_Fashion"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/fashion" />
+
+        <TextView
+            android:id="@+id/txtCategoriesAct_Fashion"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imgCategoriesAct_Fashion"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutCategoriesAct_ATM"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/atm_background"
+        android:paddingLeft="12dp">
+
+        <ImageView
+            android:id="@+id/imgCategoriesAct_ATM"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/atm"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/txtCategoriesAct_ATM"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgCategoriesAct_ATM"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</LinearLayout>
